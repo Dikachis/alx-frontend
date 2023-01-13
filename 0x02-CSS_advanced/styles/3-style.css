@@ -7,10 +7,18 @@
     --text-color: #090909;
 }
 
-.section-tagline, .card-category {
+.section-tagline {
     color: var(--color-primary);
 }
 
-body, a {
+.card-category {
+    color: var(--color-primary);
+}
+
+body {
+    color: var(--text-color);
+}
+
+a {
     color: var(--text-color);
 }
