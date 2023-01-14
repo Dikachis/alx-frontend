@@ -7,18 +7,14 @@
     --text-color: #090909;
 }
 
-.section-tagline {
+p.section-tagline {
     color: var(--color-primary);
 }
 
-.card-category {
+p.card-category {
     color: var(--color-primary);
 }
 
-body {
-    color: var(--text-color);
-}
-
-a {
+body, a {
     color: var(--text-color);
 }
