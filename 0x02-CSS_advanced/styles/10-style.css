@@ -47,9 +47,19 @@ a {
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+    /* section header */
+    --section-header-align: center;
 }
 
-.section-tagline, .card-category {
+.section-header {
+    text-align: var(--section-header-align);
+}
+
+.section-tagline {
+    color: var(--color-primary);
+}
+
+.card-category {
     color: var(--color-primary);
 }
 
@@ -60,8 +70,4 @@ body, a {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
-}
-
-.section-header-align {
-    justify-content: center;
 }
