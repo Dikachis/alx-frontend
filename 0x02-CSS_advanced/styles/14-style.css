@@ -351,7 +351,7 @@ template {
 /* =============================== End ============================= */
 
 *, *::before, *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
