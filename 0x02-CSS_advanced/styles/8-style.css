@@ -43,9 +43,9 @@ a {
     --font-size-xx-large: 4.8rem;
     --font-weight-regular: 400;
     --font-weight-bold: 700;
-    --line-height-small: 1.2;
-    --line-height-base: 1.5;
-    --line-height-big: 1.8;
+    --line-height-small: 1.2rem;
+    --line-height-base: 1.5rem;
+    --line-height-big: 1.8rem;
 }
 
 .section-tagline, .card-category {
