@@ -50,7 +50,7 @@ a {
 body, a {
     color: var(--text-color);
     font-family: var(--font-family-base);
-    font-weight: var(font-weight-regular);
+    font-weight: var(--font-weight-regular);
 }
 
 h1, h2, h3, h4, h5, h6 {
