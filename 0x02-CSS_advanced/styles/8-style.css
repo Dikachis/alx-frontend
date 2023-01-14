@@ -6,6 +6,9 @@ html {
 body {
     color: #161616;
     font-size: var(--font-size-medium);
+    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-regular);
+    min-height: var(--line-height-base);
 }
 
 a {
@@ -51,9 +54,6 @@ a {
 
 body, a {
     color: var(--text-color);
-    font-family: var(--font-family-base);
-    font-weight: var(--font-weight-regular);
-    min-height: var(--line-height-base);
 }
 
 h1, h2, h3, h4, h5, h6 {
