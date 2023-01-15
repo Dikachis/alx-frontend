@@ -424,13 +424,14 @@ section {
 }
 
 .section-header {
+  text-align: var(--section-header-align);
   padding-top: var(--section-header-padding);
   padding-right: var(--section-header-padding);
   padding-bottom: var(--section-header-padding);
   padding-left: var(--section-header-padding);
 }
 
-.section-body {
+.section-header .section-body {
   padding-top: var(--section-body-padding);
   padding-right: var(--section-body-padding);
   padding-bottom: var(--section-body-padding);
