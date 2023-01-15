@@ -438,19 +438,12 @@ section {
   padding-left: var(--section-body-padding);
 }
 
-.section-header .section-body .section-footer {
+.section-body .section-footer {
   text-align: var(--section-footer-align);
   padding-top: var(--section-footer-padding);
   padding-right: var(--section-footer-padding);
   padding-bottom: var(--section-footer-padding);
   padding-left: var(--section-footer-padding);
-}
-
-footer {
-  padding-top: var(--footer-padding);
-  padding-right: var(--footer-padding);
-  padding-bottom: var(--footer-padding);
-  padding-left: var(--footer-padding);
 }
 
 .section-title {
@@ -502,4 +495,11 @@ background-color: var(--color-light-grey);
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
+}
+
+footer {
+  padding-top: var(--footer-padding);
+  padding-right: var(--footer-padding);
+  padding-bottom: var(--footer-padding);
+  padding-left: var(--footer-padding);
 }
