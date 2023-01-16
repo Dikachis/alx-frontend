@@ -407,7 +407,7 @@ body {
   /* section-title */
   --section-title-margin: 0;
   --section-title-color: var(--color-black);
-  /* section variables */
+  /* section padding variables */
   --section-padding: 5rem 0;
   --section-header-padding: 0 0 3rem;
   --section-body-padding: 0 0 3rem;
@@ -417,33 +417,21 @@ body {
 }
 
 section {
-  padding-top: var(--section-padding);
-  padding-right: var(--section-padding);
-  padding-bottom: var(--section-padding);
-  padding-left: var(--section-padding);
+  padding: var(--section-padding);
 }
 
 .section-header {
   text-align: var(--section-header-align);
-  padding-top: var(--section-header-padding);
-  padding-right: var(--section-header-padding);
-  padding-bottom: var(--section-header-padding);
-  padding-left: var(--section-header-padding);
+  padding: var(--section-header-padding);
 }
 
-.section-header .section-body {
-  padding-top: var(--section-body-padding);
-  padding-right: var(--section-body-padding);
-  padding-bottom: var(--section-body-padding);
-  padding-left: var(--section-body-padding);
+.section-body {
+  padding: var(--section-body-padding);
 }
 
 .section-footer {
   text-align: var(--section-footer-align);
-  padding-top: var(--section-footer-padding);
-  padding-right: var(--section-footer-padding);
-  padding-bottom: var(--section-footer-padding);
-  padding-left: var(--section-footer-padding);
+  padding: var(--section-footer-padding);
 }
 
 .section-title {
@@ -498,8 +486,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
-  padding-top: var(--footer-padding);
-  padding-right: var(--footer-padding);
-  padding-bottom: var(--footer-padding);
-  padding-left: var(--footer-padding);
+  padding: var(--footer-padding);
 }
