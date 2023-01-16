@@ -416,7 +416,7 @@ body {
   --footer-padding: 5rem 0 1rem;
 }
 
-section {
+.section {
   padding: var(--section-padding);
 }
 
