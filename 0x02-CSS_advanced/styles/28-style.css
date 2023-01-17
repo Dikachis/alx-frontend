@@ -580,19 +580,10 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--nav-item-link-hover);
 }
 
-.nav .nav-link::before {
+.row::after {
   content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--color-white);
-  width: 0;
-  height: 0.2rem;
-}
-
-.nav .nav-item:hover .nav-link::before {
-  background-color: var(--color-primary);
-  width: 100%;
+  display: table;
+  clear: both;
 }
 
 ul.row {
@@ -607,12 +598,6 @@ ul.row {
 
 .col-1-2 {
   width: 50%;
-}
-
-.row::after {
-  content: '';
-  display: table;
-  clear: both;
 }
 
 [class^='col-'] {
