@@ -708,6 +708,7 @@ ul.row {
   left: -0.1rem;
   right: -0.1rem;
   z-index: 1;
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
