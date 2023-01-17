@@ -520,6 +520,8 @@ background-color: var(--color-light-grey);
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
   background-color: var(--button-hover-background);
+  transition-duration: var(--transition-duration);
+  transition-property: color, background-color;
 }
 
 h1, h2, h3, h4, h5, h6 {
